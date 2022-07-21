@@ -6,5 +6,5 @@
 
 #Find the sum of the even digits in the variable "var_int".
 
-var_int = 4444
+var_int = 4441
 print((var_int + 1) % 2 * var_int % 10 + (var_int // 10 + 1) % 2 * var_int // 10 % 10 + (var_int // 100 + 1) % 2 * var_int // 100 % 10 + (var_int // 1000 + 1) % 2 * var_int // 1000 % 10)
